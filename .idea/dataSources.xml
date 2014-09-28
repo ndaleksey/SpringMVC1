@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3130364974">
+    <data-source source="LOCAL" name="Overhaul" uuid="f5ba4a80-88c7-40e8-aad1-6373e44ea409">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/Overhaul</jdbc-url>
+      <user-name>root</user-name>
+      <schema-pattern>overhaul.*</schema-pattern>
+      <default-schemas>overhaul.*</default-schemas>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
